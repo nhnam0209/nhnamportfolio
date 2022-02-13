@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "./src/index.js",
+  "homepage": "https://nhnam0209.github.io/nhnamportfolio",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -25,10 +26,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d nhnam0209 -b main",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "publish": "gh-pages -d src"
   },
-  "homepage": "https://nhnam0209.github.io/nhnamportfolio/",
   "eslintConfig": {
     "extends": [
       "react-app",
