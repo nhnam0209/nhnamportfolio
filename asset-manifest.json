@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nhnamportfolio/static/css/main.46149c4e.css",
-    "main.js": "/nhnamportfolio/static/js/main.1040842b.js",
+    "main.js": "/nhnamportfolio/static/js/main.0e997a2c.js",
     "static/media/landingpage.png": "/nhnamportfolio/static/media/landingpage.46f866593926ed8faa14.png",
     "static/media/comingsoon.png": "/nhnamportfolio/static/media/comingsoon.1f475eedc1bc4928cd97.png",
     "static/media/webshoporder.png": "/nhnamportfolio/static/media/webshoporder.a1a7c7e2318072bbd537.png",
@@ -9,10 +9,10 @@
     "static/media/portfolioweb.png": "/nhnamportfolio/static/media/portfolioweb.11b8f3c247571789686c.png",
     "index.html": "/nhnamportfolio/index.html",
     "main.46149c4e.css.map": "/nhnamportfolio/static/css/main.46149c4e.css.map",
-    "main.1040842b.js.map": "/nhnamportfolio/static/js/main.1040842b.js.map"
+    "main.0e997a2c.js.map": "/nhnamportfolio/static/js/main.0e997a2c.js.map"
   },
   "entrypoints": [
     "static/css/main.46149c4e.css",
-    "static/js/main.1040842b.js"
+    "static/js/main.0e997a2c.js"
   ]
 }
