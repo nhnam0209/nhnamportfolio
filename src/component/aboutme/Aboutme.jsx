@@ -16,7 +16,7 @@ export default function Aboutme() {
                 <h1>Nguyen Hoang Nam (Tony)</h1>
                 <br />
                 <br />
-                <h2>Computer science student in Ton Duc Thang University.</h2>
+                <h2>I'm a computer science student at Ton Duc Thang University.</h2>
                 <br />
                 <h2>I strive for a software engineer and web developer.</h2>
                 <br />
