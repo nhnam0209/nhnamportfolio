@@ -8,7 +8,7 @@ import { saveAs } from "file-saver";
 export default function Aboutme() {
 
   const saveFile = () =>{
-    saveAs("../../assets/NguyenHoangNam-_CV.pdf","NguyenHoangNam_CV.pdf");
+    saveAs("assets/NguyenHoangNam-_CV.pdf","NguyenHoangNam_CV.pdf");
   }
 
   return (

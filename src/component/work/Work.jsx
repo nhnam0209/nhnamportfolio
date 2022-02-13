@@ -7,28 +7,28 @@ export default function Work() {
     const data =[
         {
             id: "1",
-            icon : "../../assets/webworkimg.png",
+            icon : "assets/webworkimg.png",
             title: "Smart CV",
             desc: " Applying Artificial Intelligence techniques to develop a CV maker tool in order to enhance the way of making CV.",
-            img: "../../assets/smartcv.png",
+            img: "assets/smartcv.png",
             project : "https://smartcv.com.vn/"
 
         },
         {
             id: "2",
-            icon : "../../assets/webworkimg.png",
+            icon : "assets/webworkimg.png",
             title: "Jade Emporium Web Ecomerce",
             desc: "Ecomerce website to take order from customer.",
-            img: "../../assets/jelogo.png",
+            img: "assets/jelogo.png",
             // project : "https://smartcv.com.vn/"
 
         },
         {
             id: "3",
-            icon : "../../assets/webworkimg.png",
+            icon : "assets/webworkimg.png",
             title: "My Portfolio Website",
             desc: "My portfolio to introduce myself.",
-            img: "../../assets/myportfolio.png",
+            img: "assets/myportfolio.png",
             // project : "https://smartcv.com.vn/"
 
         }
