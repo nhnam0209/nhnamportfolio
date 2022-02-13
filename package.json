@@ -28,6 +28,8 @@
     "deploy": "npm run build && gh-pages -d nhnam0209 -b main"
   },
   "homepage": "https://nhnam0209.github.io/nhnamportfolio/",
+  "publish": "gh-pages -d src",
+
   "eslintConfig": {
     "extends": [
       "react-app",
