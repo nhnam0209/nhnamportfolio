@@ -8,23 +8,29 @@ export default function Work() {
         {
             id: "1",
             icon : "../../assets/webworkimg.png",
-            title: "Web Design",
-            desc: "ABC",
-            img: "../../assets/jelogo.png",
+            title: "Smart CV",
+            desc: " Applying Artificial Intelligence techniques to develop a CV maker tool in order to enhance the way of making CV.",
+            img: "../../assets/smartcv.png",
+            project : "https://smartcv.com.vn/"
+
         },
         {
             id: "2",
             icon : "../../assets/webworkimg.png",
-            title: "Mobile Application",
-            desc: "ABC",
+            title: "Jade Emporium Web Ecomerce",
+            desc: "Ecomerce website to take order from customer.",
             img: "../../assets/jelogo.png",
+            // project : "https://smartcv.com.vn/"
+
         },
         {
             id: "3",
             icon : "../../assets/webworkimg.png",
-            title: "Mobile Application",
-            desc: "ABC",
-            img: "../../assets/jelogo.png",
+            title: "My Portfolio Website",
+            desc: "My portfolio to introduce myself.",
+            img: "../../assets/myportfolio.png",
+            // project : "https://smartcv.com.vn/"
+
         }
     ]
 
@@ -50,7 +56,7 @@ export default function Work() {
                             </div>
                             <h2>{d.title}</h2>
                             <p>{d.desc}</p>
-                            <span>Project</span>
+                            <span><a href= {d.project}>Project</a></span>
                         </div>
 
                     </div>

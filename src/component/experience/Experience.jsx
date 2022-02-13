@@ -10,16 +10,16 @@ export default function Experience() {
       icon:"assets/TDT.png",
       title: "Developer",
       place: "AI LAB Ton Duc Thang University",
-      desc : "description",
+      desc : "Joined AI LAB since 2019 with a work such as research AI technology and trainee guide for new student.",
       featured: true
 
     },
     {
       id: "2",
-      icon:"assets/TDT.png",
+      icon:"assets/NewAi.png",
       title: "Developer",
       place: "NewAI",
-      desc : "description",
+      desc : "Joined NewAI since 2020 until October 2021 with a work such as applying AI technology on web application.",
       featured: true
     }
   ]

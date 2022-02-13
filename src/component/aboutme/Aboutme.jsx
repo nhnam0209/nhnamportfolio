@@ -1,9 +1,16 @@
 import React from 'react'
 import "./aboutme.scss"
 import {Facebook, Instagram, LinkedIn} from "@material-ui/icons"
+import { saveAs } from "file-saver";
+
 
 
 export default function Aboutme() {
+
+  const saveFile = () =>{
+    saveAs("../../assets/NguyenHoangNam-_CV.pdf","NguyenHoangNam_CV.pdf");
+  }
+
   return (
     <div className='aboutme' id='aboutme'>
       <div className="left">
@@ -27,6 +34,11 @@ export default function Aboutme() {
                 <a href="https://www.linkedin.com/in/nhnam3004/"><LinkedIn fontSize="large"/></a>
                 <a href="https://www.instagram.com/hoangnam_3004/"><Instagram fontSize="large"/></a>
                 </h2>
+                <br />
+                <h2>My CV</h2>
+                <br />
+                <button onClick={saveFile}>Download My CV</button>
+                
 
             </div>
 

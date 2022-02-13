@@ -1,12 +1,17 @@
 
 import imageFile from './assets/comingsoon.png';
+import imageFile1 from './assets/landingpage.png';
+import imageFile2 from './assets/ecomerceweb.png';
+import imageFile3 from './assets/portfolioweb.png';
+import imageFile4 from './assets/webshoporder.png';
+
 
 
 export const featuredPortfolio = [
     {
         id: 1,
         title: "E-comerce Web Design",
-        img: imageFile
+        img: imageFile2
     },
     {
         id: 2,
@@ -15,8 +20,13 @@ export const featuredPortfolio = [
     },
     {
         id: 3,
-        title: "Coming soon",
-        img: imageFile
+        title: "Landing Page Design",
+        img: imageFile1
+    },
+    {
+        id: 4,
+        title: "Portfolio Web Design",
+        img: imageFile3
     }
     
 ];
@@ -24,17 +34,22 @@ export const webPortfolio = [
     {
         id: 1,
         title: "E-comerce Web Design",
-        img: imageFile
+        img: imageFile2
     },
     {
         id: 2,
         title: "Web Shop Order Design",
-        img: imageFile
+        img: imageFile4
     },
     {
         id: 3,
-        title: "Coming soon",
-        img: imageFile
+        title: "Landing Page Design",
+        img: imageFile1
+    },
+    {
+        id: 4,
+        title: "Portfolio Web Design",
+        img: imageFile3
     }
     
 ];

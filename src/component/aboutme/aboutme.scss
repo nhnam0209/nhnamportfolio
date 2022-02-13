@@ -61,7 +61,7 @@
                 }
             }
             h2{
-                font-size: 35px;
+                font-size: 30px;
 
                 @include mobile{
                     font-size: 20px;
@@ -75,6 +75,23 @@
                 flex-direction: row;
                 text-decoration: none;
                 color: $mainColor;
+            }
+
+            button{
+                width: fit-content;
+                border-radius: 10px;
+                background-color: $mainColor;
+                color: white;
+                border: none;
+                padding: 15px;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 15px;
+
+                &:hover{
+                    background-color: white;
+                    color: $mainColor;
+                }
             }
         }
 

@@ -25,7 +25,7 @@ export default function Portfolio() {
         },
         {
             id: "photography",
-            title: "Photography"
+            title: "Photography & Flimmaker"
         }
     ];
 
