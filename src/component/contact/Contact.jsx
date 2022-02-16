@@ -28,6 +28,7 @@ export default function Contact() {
       <div className="right">
         <form ref={formRef} onSubmit={handleSubmit}>
           <h1>Contact</h1>
+          <br />
           <input type="text" name= "user_name"  placeholder='Name'/>
           <input type="text" name= "user_subject" placeholder='Subject'/>
           <input type="text" name= "user_email"  placeholder='Email'/>

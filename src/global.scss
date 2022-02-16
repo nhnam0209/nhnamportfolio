@@ -2,8 +2,16 @@ $mainColor: rgba(9,21,121,1);
 
 $width: 768px;
 
+$widthsmall: 740px;
+
 @mixin mobile{
     @media (max-width: #{$width}){
+        @content
+    }
+}
+
+@mixin smallmobile {
+    @media (max-width: #{$widthsmall}){
         @content
     }
 }
