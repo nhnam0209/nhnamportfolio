@@ -26,11 +26,10 @@ export default function Work() {
         {
             id: "3",
             icon : "assets/webworkimg.png",
-            title: "My Portfolio Website",
-            desc: "My portfolio to introduce myself.",
+            title: "Bun Vit Le Van Sy",
+            desc: "My family cuisine website.",
             img: "assets/myportfolio.png",
             // project : "https://smartcv.com.vn/"
-
         }
     ]
 
