@@ -29,7 +29,7 @@ export default function Work() {
             title: "Bun Vit Le Van Sy",
             desc: "My family cuisine website.",
             img: "assets/myportfolio.png",
-            // project : "https://smartcv.com.vn/"
+            project : "https://bunvit281lvs.netlify.app/"
         }
     ]
 
